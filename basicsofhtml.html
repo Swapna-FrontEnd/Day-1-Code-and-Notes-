@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Basics of HTML and JS and CSS</title>
+
+</head>
+<body>
+    <center>
+        <h1>Login Form</h1>
+        <!-- form -->
+        <form action='welcome.html'>
+            <input id='username' type="text" required placeholder="username"> <br /> <br /> <br />
+            <input id="pwd" type="password" required placeholder='password "is required"'> <br /> <br /> <br />
+            <button onclick="readUserName(),readPassword()">Sign In</button>
+        </form>
+    </center>
+    <!-- Internal Script -->
+    <script>
+        function readUserName(){
+            var uname = document.getElementById('username').value;
+            alert("Welcome...."+uname);
+        }
+        function readPassword(){
+            var upwd = document.getElementById('pwd').value;
+            alert("Password entered...."+upwd);
+        }
+    </script>
+</body>
+</html>

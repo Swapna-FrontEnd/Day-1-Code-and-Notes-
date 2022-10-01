@@ -1,0 +1,46 @@
+JS
+==
+can be added in html page in 3 ways
+
+1. internal =>    <script>
+
+    </script>
+2. inline 
+3. external (most prefered)
+
+JS can be added in both head and body
+
+CSS
+===
+can be added in html page in 3 ways
+
+1. internal => style tag
+2. inline => style attribute of html element
+3. external => .css file 
+
+CSS used DOM model
+
+CSS3 is the latest version
+CSS = Cascading Style Sheet
+
+HTML = Skeleton
+CSS = Muscle
+JS = Motion Sensor
+
+
+Selectors in CSS
+===============
+id selectors
+class selectors
+tag selectors
+descendent selectors
+etc.,
+
+
+
+
+
+html document follows DOM model(Document Object Model)
+===================================================
+BOM (Browser Object Model)
+==========================
